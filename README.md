@@ -10,6 +10,6 @@ Possible methods:
   - Increasing by weight where weight is #synapses or #neurons
 * Neurons as vertices with weighted edges, where edge weights' are inversly proportional to the number of synapse connections between neurons
   - Increasing shortest path distances defined by weight (MaxSyn - ConnSyn + 1)
-  - Randomize initial weights, simulate training by randomly/linearly increasing/decreasing weights back to original value
-
+  - Randomize initial weights (add/sub random gaussian noise), simulate training by randomly/linearly correcting weights back to original value
+* Define a cost function with a desired persistence diagram/persistence entropy, perform gradient descent 
   
