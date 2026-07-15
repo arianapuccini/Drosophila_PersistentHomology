@@ -1,3 +1,10 @@
+'''
+This code can be used by adding bodyIds of neurons of interest to the lists a and b. 
+The code will then fetch the synapse connections between the two sets of neurons, 
+fetch the skeletons for the neurons, and plot them in the x-y plane.
+'''
+
+
 from neuprint import Client, fetch_synapse_connections
 from neuprint import NeuronCriteria as NC, SynapseCriteria as SC
 import matplotlib.pyplot as plt
